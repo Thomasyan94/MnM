@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#eaf0db" />
+    <meta
+      name="description"
+      content="MnM 饮品实验室：探索奶茶、咖啡与抹茶，自由搭配你的专属饮品。"
+    />
+    <title>MnM — Mix n Match</title>
+    <link rel="preload" as="image" href="assets/mocha-finished-v4.png" />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="#">MnM<span>mix n match</span></a>
+      <nav>
+        <a href="#story" data-t="navStory"></a
+        ><a href="#menu" data-t="navMenu"></a
+        ><a href="#how" data-t="navHow"></a>
+      </nav>
+      <div class="headtools">
+        <select id="lang" aria-label="Language">
+          <option value="zh">中文</option>
+          <option value="en">EN</option>
+          <option value="ms">BM</option></select
+        ><button class="bag" id="bag" aria-label="Shopping bag">
+          <svg
+            width="20"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+          >
+            <path d="M5 7h14l2 15H3L5 7Z" />
+            <path d="M8 8V5a4 4 0 0 1 8 0v3" /></svg
+          ><span id="count">0</span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow">A LITTLE MIX. A LOT OF YOU.</div>
+          <h1>Mix it.<br />Match it.<br /><em>Make it yours.</em></h1>
+          <p data-t="heroText"></p>
+          <a href="#menu" class="primary" data-t="start"></a>
+          <div class="hero-foot">
+            <span class="tiny-cup">♡</span><span data-t="heroFoot"></span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="round-label">GOOD SIPS<br />GOOD MOOD</div>
+          <span class="spark s1">✳</span><span class="spark s2">✧</span>
+          <div id="hero-cup"></div>
+          <div class="flavor-tag" data-t="heroFlavor"></div>
+          <div class="floating-note">a cup of happy.</div>
+          <div class="mini-label">CRAFTED BY YOU · MnM</div>
+        </div>
+        <div class="hero-bottom">
+          <span>MILK TEA / COFFEE / MATCHA</span><span data-t="scroll"></span>
+        </div>
+      </section>
+      <div class="ticker">
+        <div>
+          MIX N MATCH IS THE BEST <span>✳</span> YOUR CUP, YOUR RULES
+          <span>✳</span> MIX N MATCH IS THE BEST <span>✳</span> YOUR CUP, YOUR
+          RULES <span>✳</span>
+        </div>
+      </div>
+      <section class="story section" id="story">
+        <div>
+          <div class="eyebrow">OUR LITTLE PHILOSOPHY</div>
+          <h2 data-t="storyTitle"></h2>
+        </div>
+        <div class="story-body">
+          <p data-t="storyText"></p>
+          <div class="story-facts">
+            <span data-t="fact1"></span><span data-t="fact2"></span
+            ><span data-t="fact3"></span>
+          </div>
+        </div>
+      </section>
+      <section class="menu-section section" id="menu">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">THE DRINK PLAYGROUND</div>
+            <h2 data-t="menuTitle"></h2>
+          </div>
+          <p data-t="menuIntro"></p>
+        </div>
+        <div class="tabs" id="categories"></div>
+        <div class="studio">
+          <div class="drink-display">
+            <div class="display-top">
+              <span id="category-label"></span><span id="product-number"></span>
+            </div>
+            <div class="cup-scene">
+              <span class="scene-word" id="scene-word">MILK<br />TEA.</span>
+              <div id="drink-cup"></div>
+              <div
+                class="cup-caption"
+                id="cup-caption"
+                aria-live="polite"
+              ></div>
+            </div>
+            <div class="display-bottom">
+              <button id="prev" aria-label="Previous drink">‹</button>
+              <div id="drink-dots"></div>
+              <button id="next" aria-label="Next drink">›</button>
+            </div>
+          </div>
+          <div class="customize">
+            <div class="product-tag" data-t="madeFor"></div>
+            <div class="product-title-row">
+              <h3 id="drink-title"></h3>
+              <span id="base-price"></span>
+            </div>
+            <p id="drink-story"></p>
+            <details id="details">
+              <summary data-t="details"></summary>
+              <div id="detail-content"></div>
+            </details>
+            <div class="option-group">
+              <div class="option-label" data-t="size"></div>
+              <div id="sizes" class="options"></div>
+            </div>
+            <div class="option-group">
+              <div class="option-label" data-t="milk"></div>
+              <div id="milks" class="options"></div>
+            </div>
+            <div class="option-group">
+              <div class="option-label">
+                <span data-t="toppings"></span><small data-t="max3"></small>
+              </div>
+              <div id="toppings" class="options"></div>
+            </div>
+            <div class="option-group">
+              <div class="option-label" data-t="foam"></div>
+              <div id="foams" class="options"></div>
+            </div>
+            <div class="two-col">
+              <div class="option-group">
+                <div class="option-label" data-t="sugar"></div>
+                <div id="sugars" class="options compact"></div>
+              </div>
+              <div class="option-group">
+                <div class="option-label" data-t="ice"></div>
+                <div id="ices" class="options compact"></div>
+              </div>
+            </div>
+            <div class="order-bottom">
+              <div>
+                <small data-t="yourCup"></small
+                ><strong id="total" aria-live="polite"></strong>
+              </div>
+              <button class="primary" id="add" data-t="add"></button>
+            </div>
+            <button class="reset" id="reset" data-t="reset"></button>
+          </div>
+        </div>
+        <div class="drink-list" id="drink-list"></div>
+      </section>
+      <section class="how section" id="how">
+        <div class="eyebrow">A RECIPE FOR A GOOD DAY</div>
+        <h2 data-t="howTitle"></h2>
+        <div class="how-grid">
+          <article>
+            <span class="how-icon">✳</span>
+            <h3 data-t="step1"></h3>
+            <p data-t="step1Text"></p>
+          </article>
+          <article>
+            <span class="how-icon">◒</span>
+            <h3 data-t="step2"></h3>
+            <p data-t="step2Text"></p>
+          </article>
+          <article>
+            <span class="how-icon">♡</span>
+            <h3 data-t="step3"></h3>
+            <p data-t="step3Text"></p>
+          </article>
+        </div>
+      </section>
+      <section class="closing">
+        <span>YOUR NEXT FAVORITE SIP?</span>
+        <h2 data-t="closing"></h2>
+        <a class="primary" href="#menu" data-t="start"></a
+        ><span class="closing-flower">✳</span>
+      </section>
+    </main>
+    <footer>
+      <a class="logo" href="#">MnM<span>mix n match</span></a>
+      <p>Mix n Match is the best.</p>
+      <small data-t="demo"></small>
+    </footer>
+    <dialog id="cart-dialog">
+      <div class="dialog-head">
+        <h2 data-t="bagTitle"></h2>
+        <button id="close-cart" aria-label="Close">×</button>
+      </div>
+      <div id="cart-content"></div>
+    </dialog>
+    <div id="toast" role="status"></div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

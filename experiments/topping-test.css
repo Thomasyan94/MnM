@@ -1,0 +1,372 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #fbfaf6;
+  color: #243e30;
+  font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  font: inherit;
+  cursor: pointer;
+}
+header {
+  height: 85px;
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #dce1d7;
+}
+header a {
+  font-size: 32px;
+  font-weight: 900;
+  color: inherit;
+  text-decoration: none;
+  letter-spacing: -2px;
+}
+header small {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+header > span {
+  font-size: 14px;
+  color: #687967;
+}
+main {
+  max-width: 1220px;
+  margin: 38px auto 60px;
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 64px;
+  padding: 0 32px;
+}
+.visual {
+  position: sticky;
+  top: 24px;
+  align-self: start;
+  height: min(790px, calc(100vh - 45px));
+  min-height: 570px;
+  background: #ecdac2;
+  border-radius: 150px 150px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.visual-heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 36px 0;
+  font-size: 12px;
+  letter-spacing: 1.4px;
+}
+#cup {
+  display: block;
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  max-height: 670px;
+  padding: 0 25px;
+}
+.visual > p {
+  font-size: 14px;
+  text-align: center;
+  margin: 0 22px 12px;
+  padding: 12px 18px;
+  background: #fff9;
+  border-radius: 24px;
+}
+.visual-note {
+  font-size: 12px;
+  color: #6e725e;
+  margin-bottom: 23px;
+}
+.controls {
+  padding: 22px 0;
+}
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin: 0 0 14px;
+  color: #6c7e66;
+}
+h1 {
+  font-size: 44px;
+  line-height: 1.22;
+  letter-spacing: -1.6px;
+  margin: 0 0 18px;
+  font-weight: 500;
+}
+.intro {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #667260;
+  max-width: 360px;
+  margin-bottom: 28px;
+}
+.included {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  padding: 18px 0;
+  border-top: 1px solid #dce1d7;
+  gap: 14px;
+}
+.included span {
+  font-size: 13px;
+  color: #697661;
+}
+.options {
+  display: grid;
+  gap: 12px;
+}
+.options > button {
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+  padding: 12px 18px;
+  border: 1px solid #d5dccf;
+  background: white;
+  border-radius: 18px;
+  color: inherit;
+  transition:
+    border-color 0.2s,
+    background 0.2s;
+}
+.options > button:hover {
+  border-color: #607b52;
+}
+.options > button[aria-pressed="true"] {
+  border: 2px solid #607b52;
+  background: #eff3e8;
+  padding: 11px 17px;
+}
+.options svg {
+  width: 110px;
+  height: 75px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.option-label {
+  display: grid;
+  gap: 9px;
+}
+.option-label strong {
+  font-size: 17px;
+  font-weight: 500;
+}
+.option-label small {
+  font-size: 13px;
+  color: #6c7863;
+}
+.check {
+  margin-left: auto;
+  font-size: 21px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #eff3e8;
+}
+.options > button[aria-pressed="true"] .check {
+  color: white;
+  background: #284b36;
+}
+.quick {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+.quick button {
+  border: 0;
+  background: #e9eedf;
+  border-radius: 24px;
+  padding: 12px 18px;
+  color: #2d4934;
+  font-size: 14px;
+}
+.quick button:last-child {
+  background: transparent;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: #6c7863;
+}
+.summary {
+  border-top: 1px solid #dce1d7;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.summary div {
+  display: grid;
+  gap: 9px;
+}
+#selection {
+  font-size: 14px;
+  color: #697661;
+}
+#price {
+  font-size: 32px;
+  font-weight: 500;
+}
+#count {
+  font-size: 14px;
+  color: #6c7863;
+}
+.test-note {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #7a8372;
+}
+.ingredient {
+  opacity: 0;
+  transform: translateY(-12px);
+  transition:
+    opacity 0.24s ease,
+    transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  pointer-events: none;
+}
+.ingredient.selected {
+  opacity: 1;
+  transform: translateY(0);
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #bb8945;
+  outline-offset: 4px;
+}
+@media (max-width: 700px) {
+  header {
+    height: 62px;
+    padding: 0 20px;
+  }
+  header a {
+    font-size: 26px;
+  }
+  header small {
+    font-size: 10px;
+    margin-left: 6px;
+  }
+  header > span {
+    font-size: 12px;
+  }
+  main {
+    display: block;
+    padding: 0;
+    margin: 0 auto 30px;
+    max-width: 540px;
+  }
+  .visual {
+    z-index: 2;
+    top: 0;
+    height: 300px;
+    min-height: 0;
+    border-radius: 0 0 28px 28px;
+    box-shadow: 0 8px 20px #243e300a;
+  }
+  .visual-heading {
+    padding: 16px 24px 0;
+    font-size: 10px;
+  }
+  #cup {
+    position: absolute;
+    left: 0;
+    top: 27px;
+    width: 100%;
+    height: 235px;
+    padding: 0;
+  }
+  .visual > p {
+    position: absolute;
+    bottom: 8px;
+    font-size: 12px;
+    margin: 0 16px;
+    padding: 7px 14px;
+  }
+  .visual-note {
+    display: none;
+  }
+  .controls {
+    padding: 26px 22px;
+  }
+  h1 {
+    font-size: 29px;
+  }
+  h1 br {
+    display: none;
+  }
+  .eyebrow {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .intro {
+    font-size: 14px;
+    margin: 0 0 22px;
+  }
+  .included {
+    font-size: 14px;
+  }
+  .included span {
+    font-size: 12px;
+  }
+  .options > button {
+    min-height: 98px;
+    gap: 14px;
+    scroll-margin-top: 320px;
+  }
+  .options svg {
+    width: 92px;
+    height: 66px;
+  }
+  .option-label small {
+    font-size: 12px;
+  }
+  .quick {
+    justify-content: space-between;
+    gap: 3px;
+  }
+  .quick button {
+    font-size: 13px;
+    padding: 11px 13px;
+  }
+  .summary {
+    padding-bottom: 8px;
+  }
+  #price {
+    font-size: 28px;
+  }
+}
+@media (max-height: 650px) and (max-width: 700px) {
+  .visual {
+    height: 140px;
+  }
+  #cup {
+    top: 18px;
+    height: 95px;
+  }
+  .visual > p {
+    font-size: 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "mnm-drink-lab",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MnM interactive drinks demo, modular vanilla JavaScript",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.js",
+    "check": "node scripts/check.mjs",
+    "db:seed:generate": "node scripts/generate-seed.mjs"
+  }
+}

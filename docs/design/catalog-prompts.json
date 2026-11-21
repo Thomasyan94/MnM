@@ -1,0 +1,217 @@
+{
+  "mode": "built-in image generation",
+  "cups": [
+    {
+      "id": "0-1",
+      "slug": "classic-milk-tea",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-2c1b4495-c72d-4563-a75c-0733353f2e8f.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout for classic-milk-tea. EDIT THE REFERENCE CUP: keep its exact 1024x1536 portrait framing, transparent tapered open cup silhouette, rim position, perspective, condensation, realistic lighting, liquid level and 25% headroom. Replace ONLY mocha liquid and its chocolate streaks with: Classic black milk tea: homogeneous creamy warm caramel beige milk tea, subtle tea amber depth, NO dark mocha marbling, NO pearls or toppings. Keep drink surface at same height around y=475, bottom around y=1410. Keep entire cup uncropped centered. Premium softly stylized photoreal food illustration, tasty and tactile, consistent with reference. Remove background fully, true alpha transparency outside cup, no black backdrop, no cast backdrop. No logo, no lettering, no straw, no lid, no floating food outside. No added topping."
+    },
+    {
+      "id": "0-2",
+      "slug": "taro-milk-tea",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-0f9c0358-0b15-409d-91bd-588501d046ee.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout for taro-milk-tea. EDIT THE REFERENCE CUP: keep its exact 1024x1536 portrait framing, transparent tapered open cup silhouette, rim position, perspective, condensation, realistic lighting, liquid level and 25% headroom. Replace ONLY mocha liquid and its chocolate streaks with: Taro milk tea: delicious unmistakable soft lavender purple milk tea with tiny natural taro flecks and denser violet taro paste at bottom. NO toppings. Keep drink surface at same height around y=475, bottom around y=1410. Keep entire cup uncropped centered. Premium softly stylized photoreal food illustration, tasty and tactile, consistent with reference. Remove background fully, true alpha transparency outside cup, no black backdrop, no cast backdrop. No logo, no lettering, no straw, no lid, no floating food outside. No added topping."
+    },
+    {
+      "id": "0-3",
+      "slug": "thai-milk-tea",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-9d542242-8329-41b7-9e86-7475822c6c59.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout for thai-milk-tea. EDIT THE REFERENCE CUP: keep its exact 1024x1536 portrait framing, transparent tapered open cup silhouette, rim position, perspective, condensation, realistic lighting, liquid level and 25% headroom. Replace ONLY mocha liquid and its chocolate streaks with: Thai milk tea: saturated burnt orange tea, creamy apricot condensed-milk swirls fading toward base, unmistakably orange rather than brown. NO toppings. Keep drink surface at same height around y=475, bottom around y=1410. Keep entire cup uncropped centered. Premium softly stylized photoreal food illustration, tasty and tactile, consistent with reference. Remove background fully, true alpha transparency outside cup, no black backdrop, no cast backdrop. No logo, no lettering, no straw, no lid, no floating food outside. No added topping."
+    },
+    {
+      "id": "0-4",
+      "slug": "oolong-milk-tea",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-09aca764-fec5-477c-b3b5-9ecd28895f82.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout for oolong-milk-tea. EDIT THE REFERENCE CUP: keep its exact 1024x1536 portrait framing, transparent tapered open cup silhouette, rim position, perspective, condensation, realistic lighting, liquid level and 25% headroom. Replace ONLY mocha liquid and its chocolate streaks with: Roasted oolong milk tea: smoky toasted tan-brown creamy tea, darker than classic beige milk tea, translucent roasted tea accents. NO toppings. Keep drink surface at same height around y=475, bottom around y=1410. Keep entire cup uncropped centered. Premium softly stylized photoreal food illustration, tasty and tactile, consistent with reference. Remove background fully, true alpha transparency outside cup, no black backdrop, no cast backdrop. No logo, no lettering, no straw, no lid, no floating food outside. No added topping."
+    },
+    {
+      "id": "0-5",
+      "slug": "jasmine-milk-tea",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-74b9ee02-00f1-453d-8923-b83e0cdf5411.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout jasmine-milk-tea. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Jasmine milk tea: extremely pale ivory milk tea with subtle tea-gold and faint sage undertone, delicate nearly white milk, NO flowers or toppings. Surface y=475, cup bottom y=1410, reserve the upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency; NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "0-6",
+      "slug": "peach-oolong",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-3f12e6dc-aadb-43d4-b989-d40adc983948.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout peach-oolong. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: White peach oolong milk tea: soft peach blush milk tea with pale orange-pink peach puree marbling in lower quarter fading to cream upper half. NO toppings. Surface y=475, cup bottom y=1410, reserve the upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency; NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "0-7",
+      "slug": "hokkaido-milk-tea",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-988be59a-ff74-4320-8e77-6dc75e941ed4.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout hokkaido-milk-tea. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Hokkaido milk tea: rich ivory cream blended with honey amber tea, creamy vanilla beige with subtle golden tea streaks, NO toppings. Surface y=475, cup bottom y=1410, reserve the upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency; NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "0-8",
+      "slug": "strawberry-milk-tea",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-875b26bd-f158-41fa-8b0f-d4f258ae651d.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout strawberry-milk-tea. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Strawberry milk tea: strawberry pink milk tea with vibrant raspberry-red strawberry puree and tiny real strawberry seeds coating lower quarter. NO toppings. Surface y=475, cup bottom y=1410, reserve the upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency; NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "0-9",
+      "slug": "teh-tarik",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-2c93b353-b1bb-4f88-81c1-293800d94655.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout teh-tarik. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Malaysian teh tarik served iced: rich golden copper orange-brown pulled milk tea with evaporated-milk silkiness and a fine natural microbubble layer flush with liquid surface. NO extra cream or toppings. Surface y=475, cup bottom y=1410, reserve the upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency; NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "1-0",
+      "slug": "iced-americano",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-6fcb8832-d0f9-461a-a9b0-660bb56b25fd.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout iced-americano. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Iced americano: translucent deep mahogany black espresso and water over clear ice, amber sunlight at edges, NO milk, NO chocolate, NO foam or toppings. Surface y=475, cup bottom y=1410, reserve the upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency; NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "1-1",
+      "slug": "iced-latte",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-dff4a0b3-7b5e-47da-a70b-dae761d8e696.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout iced-latte. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Iced latte: ivory fresh milk with fluid espresso brown marbling and natural tan transition toward surface, looks like real espresso mixing into milk, NO chocolate sauce, NO foam or toppings. Surface y=475, cup bottom y=1410, reserve the upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency; NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "1-2",
+      "slug": "cappuccino",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-97b0c417-9bdf-4cba-9f76-faecb70e581b.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout cappuccino. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Iced cappuccino base: creamy coffee medium tan milk with espresso at surface. Leave upper quarter EMPTY for original milk foam which will be a separate animated asset; do NOT draw foam in this base asset. Surface y=475, cup bottom y=1410, reserve the upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency; NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "1-5",
+      "slug": "cold-brew",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-3aae7c41-6d98-46d8-8a1e-39fc47a34724.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout cold-brew. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Cold brew coffee base: clear translucent deep walnut-black coffee with amber edges and ice. Leave upper quarter EMPTY for separately composited original sweet cream foam. NO milk in liquid, NO built-in foam. Surface y=475, cup bottom y=1410, reserve upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency, NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "1-6",
+      "slug": "spanish-latte",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-a7c8ed12-2ea2-494a-8d18-a8f97cd05f58.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout spanish-latte. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Spanish latte: luscious pale ivory condensed milk at very bottom, caramel-tan espresso milk in middle, deep espresso ripples toward surface, beautiful warm beige layered drink, NO toppings or foam. Surface y=475, cup bottom y=1410, reserve upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency, NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "1-7",
+      "slug": "dirty-latte",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-bbc79a36-8290-4079-8037-497bad4b9696.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout dirty-latte. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Dirty latte: distinct lower two-thirds cold ivory milk and upper one-third dark espresso floating above with beautiful brown tendrils descending gently, striking ivory/brown contrast, NO chocolate or foam. Surface y=475, cup bottom y=1410, reserve upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency, NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "1-8",
+      "slug": "creme-brulee-latte",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-4bf2c5bf-5892-4278-b3a7-2a5bf25469c2.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout creme-brulee-latte. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Creme brulee latte base: creamy custard gold milk and tan espresso, fine caramel streaks near walls. Upper quarter EMPTY for separately composited custard foam and burnt sugar crust, NO foam or toppings in this base. Surface y=475, cup bottom y=1410, reserve upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency, NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "1-9",
+      "slug": "pistachio-latte",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-813d11c4-4a6b-40d9-9b24-d0f9be3bb36f.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout pistachio-latte. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Pistachio latte base: beautiful muted light pistachio-green milk lower half, medium brown espresso swirls near top, subtle nutty green cream color. Upper quarter EMPTY for separately composited original foam. NO toppings. Surface y=475, cup bottom y=1410, reserve upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency, NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "2-0",
+      "slug": "classic-matcha",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-fc3a5d26-a095-473f-a9f8-7cf041e4286f.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout classic-matcha. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Classic matcha latte: distinct creamy ivory milk bottom and rich saturated natural emerald matcha tea upper half, beautiful green tendrils down through milk. NO toppings. Surface y=475, cup bottom y=1410, reserve upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency, NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "2-2",
+      "slug": "coconut-matcha",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-3b0bb7f4-7bad-4541-b681-1f51d54f5d04.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout coconut-matcha. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Coconut matcha latte: brilliant cool white coconut milk base, dark jade matcha layer above, clean sharp white/green layering with fine matcha streams. NO toppings. Surface y=475, cup bottom y=1410, reserve upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency, NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "2-3",
+      "slug": "strawberry-coconut-matcha",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-d3b7c0aa-cccc-48be-8a95-c3f0fe72f490.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout strawberry-coconut-matcha. Keep the reference's exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Strawberry coconut matcha: three clearly distinct layers, ruby strawberry puree bottom fifth with seeds, cool white coconut milk middle, deep natural green matcha upper third; photogenic sharp tricolor layering. NO toppings. Surface y=475, cup bottom y=1410, reserve upper 25 percent empty for toppings. Preserve full uncropped cup. Consistent premium realistic food illustration. Remove all background to true alpha transparency, NO dark backdrop or halo. No logo, text, straw, lid or food outside cup. No extra garnish."
+    },
+    {
+      "id": "2-4",
+      "slug": "salted-cloud-matcha",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-b742bd5f-9eb2-4db2-b9d5-8d9d6f030560.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout salted-cloud-matcha. Keep reference exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Salted cloud matcha base: creamy sage-green matcha milk with deep matcha green near surface, upper quarter EMPTY for separate original sea salt cream. NO built-in foam or toppings. Surface y=475, cup bottom y=1410, reserve upper quarter empty for toppings. Preserve uncropped cup. Premium realistic food illustration. True alpha transparent background, no dark backdrop, no halo. No text, logo, straw, lid, garnish or floating food outside cup."
+    },
+    {
+      "id": "2-5",
+      "slug": "blueberry-matcha",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-0afdb9f7-78c4-4a4b-9baf-294899b00540.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout blueberry-matcha. Keep reference exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Blueberry matcha latte: distinct vivid purple-blue blueberry puree bottom quarter with subtle fruit texture, cool ivory milk middle, deep emerald matcha upper third. Beautiful purple/white/green layering. NO toppings. Surface y=475, cup bottom y=1410, reserve upper quarter empty for toppings. Preserve uncropped cup. Premium realistic food illustration. True alpha transparent background, no dark backdrop, no halo. No text, logo, straw, lid, garnish or floating food outside cup."
+    },
+    {
+      "id": "2-6",
+      "slug": "dirty-matcha",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-8166205a-b0ab-48df-9a25-481eae4a5ad8.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout dirty-matcha. Keep reference exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Dirty matcha latte: ivory milk bottom quarter, vivid matcha green middle, dark brown espresso upper quarter, expressive coffee tendrils through green milk. NO foam or toppings. Surface y=475, cup bottom y=1410, reserve upper quarter empty for toppings. Preserve uncropped cup. Premium realistic food illustration. True alpha transparent background, no dark backdrop, no halo. No text, logo, straw, lid, garnish or floating food outside cup."
+    },
+    {
+      "id": "2-7",
+      "slug": "taro-cloud-matcha",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-1451449e-0f53-450b-99f2-789c3a00655b.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout taro-cloud-matcha. Keep reference exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Taro cloud matcha base: distinct dense lavender-purple taro paste lower third, ivory milk center, rich emerald matcha upper third, upper quarter EMPTY for separate lavender taro foam. NO built-in foam or toppings. Surface y=475, cup bottom y=1410, reserve upper quarter empty for toppings. Preserve uncropped cup. Premium realistic food illustration. True alpha transparent background, no dark backdrop, no halo. No text, logo, straw, lid, garnish or floating food outside cup."
+    },
+    {
+      "id": "2-8",
+      "slug": "white-chocolate-matcha",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-f5bdd336-b502-4d02-a704-d3ab462f7213.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout white-chocolate-matcha. Keep reference exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: White chocolate matcha latte: creamy pale white chocolate milk lower half and vibrant spring-green matcha above, thick silky white-green marbling, NO chocolate chunks or foam or toppings. Surface y=475, cup bottom y=1410, reserve upper quarter empty for toppings. Preserve uncropped cup. Premium realistic food illustration. True alpha transparent background, no dark backdrop, no halo. No text, logo, straw, lid, garnish or floating food outside cup."
+    },
+    {
+      "id": "2-9",
+      "slug": "lavender-matcha",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-d080609d-4d4e-4036-a259-06c2b2b58079.png",
+      "prompt": "Use case: precise-object-edit. Website product cutout lavender-matcha. Keep reference exact 1024x1536 framing, tapered open cup silhouette, rim perspective, condensation, studio light and liquid level. Change ONLY beverage to: Lavender matcha latte: subtle soft lilac lavender syrup milk lower third transitioning to pale cream milk center and deep emerald green matcha top, delicate purple/white/green layers. NO flowers, NO toppings. Surface y=475, cup bottom y=1410, reserve upper quarter empty for toppings. Preserve uncropped cup. Premium realistic food illustration. True alpha transparent background, no dark backdrop, no halo. No text, logo, straw, lid, garnish or floating food outside cup."
+    }
+  ],
+  "toppings": [
+    {
+      "id": "pearl",
+      "slug": "pearl",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-09df4457-f057-492f-ad56-c132da9f9822.png",
+      "prompt": "Use case: product-mockup. Create ONE isolated edible drink topping asset for interactive website compositing: A small tight cluster of five large glossy dark brown tapioca boba pearls, plump round edible balls, each distinct and softly touching; wet highlights and warm translucent caramel edges. Premium realistic food illustration, oversized cute tactile food, appetizing and recognizable, soft studio key light upper left, perspective looking downward about 15 degrees. Object centered and fills 75 percent of a square canvas. True transparent alpha background, clean silhouette, no backdrop, no black halo, no cast ground shadow. No cup, spoon, container, bowl, hands, text, labels or decorative props. Entire object visible uncropped."
+    },
+    {
+      "id": "pudding",
+      "slug": "pudding",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-dd3fee63-3bd1-4237-a0fb-6235299f3bce.png",
+      "prompt": "Use case: product-mockup. Create ONE isolated edible drink topping asset for interactive website compositing: One large cute cube of golden vanilla custard pudding with softly rounded corners, jiggly silky glossy surface, amber caramel glaze on top, no plate. Premium realistic food illustration, oversized cute tactile food, appetizing and recognizable, soft studio key light upper left, perspective looking downward about 15 degrees. Object centered and fills 75 percent of a square canvas. True transparent alpha background, clean silhouette, no backdrop, no black halo, no cast ground shadow. No cup, spoon, container, bowl, hands, text, labels or decorative props. Entire object visible uncropped."
+    },
+    {
+      "id": "jelly",
+      "slug": "jelly",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-a0789a46-32ff-4b8f-bca7-11c3bb701df1.png",
+      "prompt": "Use case: product-mockup. Create ONE isolated edible drink topping asset for interactive website compositing: One big rounded translucent dark coffee jelly cube, rich dark amber brown with real refracted light inside, wet glossy edges, no plate. Premium realistic food illustration, oversized cute tactile food, appetizing and recognizable, soft studio key light upper left, perspective looking downward about 15 degrees. Object centered and fills 75 percent of a square canvas. True transparent alpha background, clean silhouette, no backdrop, no black halo, no cast ground shadow. No cup, spoon, container, bowl, hands, text, labels or decorative props. Entire object visible uncropped."
+    },
+    {
+      "id": "taro",
+      "slug": "taro",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-cb9d8f9f-3e4c-4685-b0e9-d56f0486c686.png",
+      "prompt": "Use case: product-mockup. Create ONE isolated edible drink topping asset for interactive website compositing: A cluster of three chunky soft lavender-purple taro mochi dumpling cubes, rounded edges, subtly floury chewy texture and tiny taro flecks, edible and cute. Premium realistic food illustration, oversized cute tactile food, appetizing and recognizable, soft studio key light upper left, perspective looking downward about 15 degrees. Object centered and fills 75 percent of a square canvas. True transparent alpha background, clean silhouette, no backdrop, no black halo, no cast ground shadow. No cup, spoon, container, bowl, hands, text, labels or decorative props. Entire object visible uncropped."
+    },
+    {
+      "id": "coconut",
+      "slug": "coconut",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-0d1d97b4-db38-4144-85ef-c239f512abcb.png",
+      "prompt": "Use case: product-mockup. Create ONE isolated edible drink topping asset for interactive website compositing: One large translucent ivory nata de coco jelly cube with rounded corners, milky transparent refractive structure, softly lit wet surface. Premium realistic food illustration, oversized cute tactile food, appetizing and recognizable, soft studio key light upper left, perspective looking downward about 15 degrees. Object centered and fills 75 percent of a square canvas. True transparent alpha background, clean silhouette, no backdrop, no black halo, no cast ground shadow. No cup, spoon, container, bowl, hands, text, labels or decorative props. Entire object visible uncropped."
+    },
+    {
+      "id": "mochi",
+      "slug": "mochi",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-df9052c8-27e4-4671-bb4b-a62c4b9f9bcd.png",
+      "prompt": "Use case: product-mockup. Create ONE isolated edible drink topping asset for interactive website compositing: One adorable large pure ivory white round shiratama mochi dumpling ball, plump sphere, fine rice flour texture, slightly moist natural sheen. Premium realistic food illustration, oversized cute tactile food, appetizing and recognizable, soft studio key light upper left, perspective looking downward about 15 degrees. Object centered and fills 75 percent of a square canvas. True transparent alpha background, clean silhouette, no backdrop, no black halo, no cast ground shadow. No cup, spoon, container, bowl, hands, text, labels or decorative props. Entire object visible uncropped."
+    },
+    {
+      "id": "redbean",
+      "slug": "redbean",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-02bc7a33-b274-4788-ac8d-bdf095d1a1cb.png",
+      "prompt": "Use case: product-mockup. Create ONE isolated edible drink topping asset for interactive website compositing: A compact little mound of glossy cooked sweet red adzuki beans, recognizable burgundy oval beans with fine pale center seams, thick sweet glaze, no plate or container. Premium realistic food illustration, oversized cute tactile food, appetizing and recognizable, soft studio key light upper left, perspective looking downward about 15 degrees. Object centered and fills 75 percent of a square canvas. True transparent alpha background, clean silhouette, no backdrop, no black halo, no cast ground shadow. No cup, spoon, container, bowl, hands, text, labels or decorative props. Entire object visible uncropped."
+    },
+    {
+      "id": "fruitpearl",
+      "slug": "fruitpearl",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-38c901d3-6f3a-42d3-bb86-3d596b7877c5.png",
+      "prompt": "Use case: product-mockup. Create ONE isolated edible drink topping asset for interactive website compositing: A small tight cluster of four oversized translucent strawberry red popping boba spheres, glossy jelly membrane and bright ruby red juice inside, touching, no plate. Premium realistic food illustration, oversized cute tactile food, appetizing and recognizable, soft studio key light upper left, perspective looking downward about 15 degrees. Object centered and fills 75 percent of a square canvas. True transparent alpha background, clean silhouette, no backdrop, no black halo, no cast ground shadow. No cup, spoon, container, bowl, hands, text, labels or decorative props. Entire object visible uncropped."
+    },
+    {
+      "id": "lemon",
+      "slug": "lemon",
+      "path": "/workspace/scratch/85054210e743/generated_images/exec-d6752bfa-5ebf-4c08-9b70-6ccbea119781.png",
+      "prompt": "Use case: product-mockup. Create ONE isolated edible drink topping asset for interactive website compositing: One fresh golden yellow lemon wheel slice, tilted 20 degrees in space, translucent juicy citrus segments clearly visible, realistic rind with white pith, no plate. Premium realistic food illustration, oversized cute tactile food, appetizing and recognizable, soft studio key light upper left, perspective looking downward about 15 degrees. Object centered and fills 75 percent of a square canvas. True transparent alpha background, clean silhouette, no backdrop, no black halo, no cast ground shadow. No cup, spoon, container, bowl, hands, text, labels or decorative props. Entire object visible uncropped."
+    }
+  ]
+}

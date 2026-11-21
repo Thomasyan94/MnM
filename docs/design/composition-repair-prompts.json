@@ -1,0 +1,20 @@
+[
+  {
+    "id": "0-0",
+    "slug": "brown-sugar",
+    "path": "/workspace/scratch/85054210e743/generated_images/exec-1f8416fb-4223-4299-a840-a2f7928393ee.png",
+    "prompt": "Use case: precise-object-edit. This is a drink website asset, NOT a new UI. Edit the reference cup into Brown sugar pearl fresh milk tea. Cool ivory fresh milk marbled with rich amber brown sugar syrup ribbons on inner walls, a clearly visible modest bed of dark tapioca pearls at the bottom, tea tinted cream, fresh ice at liquid surface. Do NOT make it chocolate or mocha. Preserve EXACTLY its centered 1024x1536 portrait frame, clear open tapered cup, real condensation, lighting, camera angle, rim ellipse at y=250, cup bottom at y=1410, liquid surface centered at y=475, 25 percent headroom between rim and liquid. Remove ALL original mocha liquid/chocolate. Keep the 25 percent top region EMPTY for interactive toppings. No straw, lid, logo, lettering, garnishes, cream or extra ingredients except those described in beverage. Attractive restrained product photography, physically believable transparency. Entire cup uncropped. True alpha transparent background, no scenery, no backdrop or halo."
+  },
+  {
+    "id": "1-4",
+    "slug": "caramel-macchiato",
+    "path": "/workspace/scratch/85054210e743/generated_images/exec-bb95d1c5-4c61-48fe-a68e-a58f27a57586.png",
+    "prompt": "Use case: precise-object-edit. This is a drink website asset, NOT a new UI. Edit the reference cup into Caramel macchiato: ivory fresh milk below, espresso coffee and warm caramel amber streaks above, fine caramel ribbons, appetizing real milk/espresso layers. No chocolate, no built-in foam. Preserve EXACTLY its centered 1024x1536 portrait frame, clear open tapered cup, real condensation, lighting, camera angle, rim ellipse at y=250, cup bottom at y=1410, liquid surface centered at y=475, 25 percent headroom between rim and liquid. Remove ALL original mocha liquid/chocolate. Keep the 25 percent top region EMPTY for interactive toppings. No straw, lid, logo, lettering, garnishes, cream or extra ingredients except those described in beverage. Attractive restrained product photography, physically believable transparency. Entire cup uncropped. True alpha transparent background, no scenery, no backdrop or halo."
+  },
+  {
+    "id": "2-1",
+    "slug": "strawberry-matcha",
+    "path": "/workspace/scratch/85054210e743/generated_images/exec-a8166ae0-5c53-4f8c-8713-c6310dc3cca9.png",
+    "prompt": "Use case: precise-object-edit. This is a drink website asset, NOT a new UI. Edit the reference cup into Strawberry matcha latte: ruby-red strawberry puree and seeds bottom quarter, ivory white milk middle, vibrant natural matcha green top third, distinct red-white-green layers. No built-in foam. Preserve EXACTLY its centered 1024x1536 portrait frame, clear open tapered cup, real condensation, lighting, camera angle, rim ellipse at y=250, cup bottom at y=1410, liquid surface centered at y=475, 25 percent headroom between rim and liquid. Remove ALL original mocha liquid/chocolate. Keep the 25 percent top region EMPTY for interactive toppings. No straw, lid, logo, lettering, garnishes, cream or extra ingredients except those described in beverage. Attractive restrained product photography, physically believable transparency. Entire cup uncropped. True alpha transparent background, no scenery, no backdrop or halo."
+  }
+]

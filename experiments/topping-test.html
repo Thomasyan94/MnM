@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MnM · 单杯搭配测试</title>
+    <link rel="stylesheet" href="topping-test.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">MnM <small>mix n match</small></a
+      ><span>单杯搭配测试</span>
+    </header>
+    <main>
+      <section class="visual" aria-label="饮品实时预览">
+        <div class="visual-heading">
+          <span>MILK TEA</span><span>黑糖珍珠鲜奶茶</span>
+        </div>
+        <svg
+          id="cup"
+          viewBox="0 70 1024 1410"
+          role="img"
+          aria-label="黑糖珍珠鲜奶茶，未加额外配料"
+        >
+          <defs>
+            <clipPath id="cup-outline">
+              <path
+                d="M65 250 C65 77 960 77 960 250 L790 1395 Q773 1450 512 1450 Q250 1450 235 1395Z"
+              />
+            </clipPath>
+            <clipPath id="liquid-front">
+              <path
+                d="M126 475 C126 585 887 585 887 475 L780 1390 Q768 1440 512 1440 Q252 1440 245 1390Z"
+              />
+            </clipPath>
+            <symbol id="grass-sprite" viewBox="45 220 650 350">
+              <image
+                href="../assets/topping-groups-v11.webp"
+                width="2176"
+                height="736"
+              />
+            </symbol>
+            <symbol id="coffee-sprite" viewBox="745 215 690 360">
+              <image
+                href="../assets/topping-groups-v11.webp"
+                width="2176"
+                height="736"
+              />
+            </symbol>
+            <symbol id="pudding-sprite" viewBox="1490 230 650 350">
+              <image
+                href="../assets/topping-groups-v11.webp"
+                width="2176"
+                height="736"
+              />
+            </symbol>
+          </defs>
+          <ellipse
+            cx="510"
+            cy="1440"
+            rx="265"
+            ry="17"
+            fill="#71533b"
+            opacity=".12"
+          />
+          <image
+            href="../assets/drink-brown-sugar-v10.webp"
+            width="1024"
+            height="1536"
+            clip-path="url(#cup-outline)"
+          />
+          <g id="grass" class="ingredient" data-ingredient="grass">
+            <ellipse
+              cx="336"
+              cy="535"
+              rx="111"
+              ry="16"
+              fill="#54412a"
+              opacity=".12"
+            />
+            <use
+              href="#grass-sprite"
+              x="193"
+              y="420"
+              width="285"
+              height="154"
+            />
+          </g>
+          <g id="coffee" class="ingredient" data-ingredient="coffee">
+            <ellipse
+              cx="509"
+              cy="550"
+              rx="110"
+              ry="14"
+              fill="#785033"
+              opacity=".12"
+            />
+            <use
+              href="#coffee-sprite"
+              x="376"
+              y="439"
+              width="280"
+              height="146"
+            />
+          </g>
+          <g id="pudding" class="ingredient" data-ingredient="pudding">
+            <ellipse
+              cx="677"
+              cy="536"
+              rx="89"
+              ry="15"
+              fill="#8c5b2c"
+              opacity=".1"
+            />
+            <use
+              href="#pudding-sprite"
+              x="561"
+              y="409"
+              width="252"
+              height="166"
+            />
+          </g>
+          <image
+            href="../assets/drink-brown-sugar-v10.webp"
+            width="1024"
+            height="1536"
+            clip-path="url(#liquid-front)"
+          />
+        </svg>
+        <p id="preview-caption">原配方 · 杯底已含黑糖珍珠</p>
+        <span class="visual-note">实际分层预览 · 可逐项加入及移除</span>
+      </section>
+      <section class="controls">
+        <p class="eyebrow">MAKE IT YOURS</p>
+        <h1>这一杯，<br />试着搭配看看。</h1>
+        <p class="intro">点击配料，看看它怎样融入杯中。再次点击即可移除。</p>
+        <div class="included">黑糖珍珠鲜奶茶 <span>原配方 RM 11.90</span></div>
+        <div class="options">
+          <button type="button" data-choice="grass" aria-pressed="false">
+            <svg viewBox="45 220 650 350" aria-hidden="true">
+              <image
+                href="../assets/topping-groups-v11.webp"
+                width="2176"
+                height="736"
+              /></svg
+            ><span class="option-label"
+              ><strong>仙草</strong><small>柔软清香 · + RM 1.50</small></span
+            ><span class="check">+</span>
+          </button>
+          <button type="button" data-choice="coffee" aria-pressed="false">
+            <svg viewBox="745 215 690 360" aria-hidden="true">
+              <image
+                href="../assets/topping-groups-v11.webp"
+                width="2176"
+                height="736"
+              /></svg
+            ><span class="option-label"
+              ><strong>咖啡冻</strong><small>透亮醇香 · + RM 2.00</small></span
+            ><span class="check">+</span>
+          </button>
+          <button type="button" data-choice="pudding" aria-pressed="false">
+            <svg viewBox="1490 230 650 350" aria-hidden="true">
+              <image
+                href="../assets/topping-groups-v11.webp"
+                width="2176"
+                height="736"
+              /></svg
+            ><span class="option-label"
+              ><strong>焦糖布丁</strong
+              ><small>绵软奶香 · + RM 2.00</small></span
+            ><span class="check">+</span>
+          </button>
+        </div>
+        <div class="quick">
+          <button id="all" type="button">试试三种一起</button
+          ><button id="reset" type="button">恢复原配方</button>
+        </div>
+        <div class="summary" aria-live="polite">
+          <div>
+            <span id="selection">未加额外配料</span
+            ><strong id="price">RM 11.90</strong>
+          </div>
+          <span id="count">0 / 3</span>
+        </div>
+        <p class="test-note">
+          这是一杯的视觉测试，价格为演示用途。现有菜单可从左上角返回。
+        </p>
+      </section>
+    </main>
+    <script src="topping-test.js"></script>
+  </body>
+</html>

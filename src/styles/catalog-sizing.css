@@ -1,0 +1,61 @@
+/* Larger food silhouettes and a staggered topping arrangement. */
+.catalog-options .ingredient-thumb {
+  width: 90px;
+  height: 76px;
+}
+.catalog-options .ingredient-card {
+  min-height: 158px;
+  padding: 14px 9px;
+  gap: 8px;
+}
+.catalog-solid-topping {
+  filter: drop-shadow(0 3px 2px #3b241620);
+}
+@media (max-width: 680px) {
+  #mobile-drink-float {
+    grid-template-columns: 128px minmax(0, 1fr);
+    gap: 14px;
+  }
+  .float-cup {
+    width: 128px;
+    height: 158px;
+    padding: 0;
+  }
+  .catalog-options {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .catalog-options .ingredient-card {
+    min-height: 158px;
+    padding: 12px 8px;
+    gap: 7px;
+  }
+  .catalog-options .ingredient-thumb {
+    width: 94px;
+    height: 80px;
+  }
+  .catalog-options .ingredient-card span {
+    font-size: 15px;
+  }
+  .catalog-options .ingredient-card small {
+    font-size: 13px;
+  }
+}
+@media (max-width: 360px) {
+  #mobile-drink-float {
+    grid-template-columns: 108px minmax(0, 1fr);
+    gap: 10px;
+  }
+  .float-cup {
+    width: 108px;
+  }
+}
+@media (max-height: 600px) and (max-width: 680px) {
+  #mobile-drink-float {
+    grid-template-columns: 100px minmax(0, 1fr);
+  }
+  .float-cup {
+    width: 100px;
+    height: 114px;
+  }
+}

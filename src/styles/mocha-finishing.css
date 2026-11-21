@@ -1,0 +1,80 @@
+/* Keep the drink silhouette quiet; the ingredients provide the detail. */
+.drink-display:has(.mocha) .scene-word {
+  display: none;
+}
+.mocha-finished .product-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  clip-path: none;
+}
+.mocha-finished {
+  animation: finishedReveal 0.28s ease-out;
+}
+.cup-scene:has(.mocha) {
+  height: 555px;
+}
+.cup-scene:has(.mocha) #drink-cup {
+  width: 340px !important;
+}
+.cup-scene:has(.mocha) #drink-cup.mocha-large {
+  width: 360px !important;
+}
+.drink-display:has(.mocha) {
+  background: #eed8c3 !important;
+  border-radius: 80px 80px 18px 18px;
+}
+.drink-display:has(.mocha) .cup-caption {
+  background: #fff9;
+  font-size: 12px;
+  bottom: 7px;
+}
+.hero-art #hero-cup:has(.mocha-finished) {
+  width: 335px !important;
+}
+@keyframes finishedReveal {
+  from {
+    opacity: 0.6;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@media (max-width: 1000px) {
+  .cup-scene:has(.mocha) {
+    height: 525px;
+  }
+  .cup-scene:has(.mocha) #drink-cup {
+    width: 315px !important;
+  }
+  .cup-scene:has(.mocha) #drink-cup.mocha-large {
+    width: 335px !important;
+  }
+}
+@media (max-width: 680px) {
+  .cup-scene:has(.mocha) {
+    height: 440px;
+  }
+  .cup-scene:has(.mocha) #drink-cup {
+    width: min(275px, 86%) !important;
+  }
+  .cup-scene:has(.mocha) #drink-cup.mocha-large {
+    width: min(290px, 91%) !important;
+  }
+  .drink-display:has(.mocha) {
+    border-radius: 65px 65px 14px 14px;
+  }
+  .drink-display:has(.mocha) .display-top {
+    padding: 25px 27px 0;
+  }
+  .hero-art #hero-cup:has(.mocha-finished) {
+    width: 285px !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mocha-finished {
+    animation: none !important;
+  }
+}
